@@ -104,7 +104,7 @@ public class ScheduleConfig implements SchedulingConfigurer {
 
 在相关类或相关类的方法上添加注解 【@Async】 即可。
 
-
+注意：需要将异步任务单独放到一个类中并配置@Component注解
 
 
 
